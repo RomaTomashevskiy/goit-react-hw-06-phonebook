@@ -79,4 +79,4 @@ export const useContacts = () => {
   };
 };
 
-export const { removeContact , addContact } = contactSlice.actions;
+export const { removeContact , addContact  , filterContacts} = contactSlice.actions;
